@@ -1,0 +1,17 @@
+ body {
+            background-color: #d0e4fe;
+        }
+
+        h1 {
+            color: #ffffff;
+            text-align: center;
+        }
+
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
