@@ -1,16 +1,21 @@
-function hw(n){
-    var x=1;
-
-    for(var i=1;i<n;i+=0.01)
+function isPrime(n)
+{
+    if(n==1) return;
+    var t=0;
+    for(var i=2;i<n/2;i++)
     {
-        
-        if(i*i>n) 
+        if(n%i==0)
         {
-            console.log(i);
-            break;
+            t++;
         }
     }
-    
-    
+    if(t==0)
+    {
+        console.log("true");
+    }
+    else if(t>0)
+    {
+        console.log("false");
+    }
 }
-hw(3);
+isPrime(17);
